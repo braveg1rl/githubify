@@ -19,5 +19,5 @@ githubify
 
 ## License
 
-GitHubify is released under the [MIT License](http://opensource.org/licenses/MIT).  
-Copyright (c) 2017 Braveg1rl  
+GitHubify is released under the [MIT License](http://opensource.org/licenses/MIT).
+Copyright (c) 2017 Braveg1rl
