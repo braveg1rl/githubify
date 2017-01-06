@@ -1,0 +1,39 @@
+{
+  "name": "githubify",
+  "version": "0.1.0",
+  "author": "Braveg1rl <braveg1rl@outlook.com>",
+  "description": "Sets up the links between a Node.js package and GitHub.",
+  "keywords": [
+    "github",
+    "git",
+    "package.json"
+  ],
+  "bin": "./bin/githubify.js",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "bluebird": "^3.4.7",
+    "command-exists": "^1.0.2",
+    "faithful-exec": "^0.1.0",
+    "fs-promise": "^1.0.0",
+    "hosted-git-info": "^2.1.5"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.12.2",
+    "mocha": "^3.2.x"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": "6.x.x"
+  },
+  "main": "lib/githubify.js",
+  "scripts": {
+    "prepublish": "npm test",
+    "pretest": "make build",
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:braveg1rl/githubify.git"
+  }
+}
