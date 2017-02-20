@@ -1,5 +1,7 @@
 # GitHubify [![Build Status](https://travis-ci.org/braveg1rl/githubify.png?branch=master)](https://travis-ci.org/braveg1rl/githubify) [![Dependency Status](https://david-dm.org/braveg1rl/githubify.png)](https://david-dm.org/braveg1rl/githubify)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/braveg1rl/githubify.svg)](https://greenkeeper.io/)
+
 Sets up the links between a Node.js package and GitHub.
 
 ## Installation
